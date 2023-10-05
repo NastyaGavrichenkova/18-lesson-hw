@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "18-lesson-hw"
+version = "0.1.0"
+description = ""
+authors = ["NastyaGavrichenkova <ladymarkos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selene = "2.0.0rc4"
+pytest = "^7.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
